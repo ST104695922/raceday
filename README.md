@@ -10,3 +10,10 @@ organiser
 - Captures race results
 - Manages payments
 
+participant
+- Views events and categories
+- Enrols in race categories
+- Views their own enrolments
+- Cancels their own enrolments
+- Records payments
+- Views race results
