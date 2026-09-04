@@ -50,3 +50,4 @@ RACEDAY BUSINESS RULES
    - Participant: Enrol, pay, view own enrolments
    - Organizer: Create events, manage categories, capture results
    - 
+https://youtube.com/shorts/xETf8ysvpPk?si=T2V76YejVOHiymvP
