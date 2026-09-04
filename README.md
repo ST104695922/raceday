@@ -17,3 +17,4 @@ participant
 - Cancels their own enrolments
 - Records payments
 - Views race results
+section a
