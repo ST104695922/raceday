@@ -42,3 +42,6 @@ RACEDAY BUSINESS RULES
    - Linked to one enrolment
    - Amount > 0
    - Status: Pending/Completed/Failed/Refunded
+7. RESULT
+   - One result per enrolment
+   - Must have finish time
