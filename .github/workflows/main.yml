@@ -1,0 +1,71 @@
+name: Validate Documentation Structure
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  validate-docs:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    
+    - name: Check docs folder
+      run: |
+        if [ -d "docs" ]; then
+          echo "docs folder found"
+        else
+          echo "ERROR: docs folder not found"
+          exit 1
+        fi
+    
+    - name: Check ERD.png
+      run: |
+        if [ -f "docs/ERD.png" ]; then
+          echo "ERD.png found"
+        else
+          echo "ERROR: ERD.png not found in docs folder"
+          exit 1
+        fi
+    
+    - name: Check endpoint-plan.pdf
+      run: |
+        if [ -f "docs/endpoint-plan.pdf" ]; then
+          echo "endpoint-plan.pdf found"
+        else
+          echo "ERROR: endpoint-plan.pdf not found in docs folder"
+          exit 1
+        fi
+    
+    - name: Check database-schema.sql
+      run: |
+        if [ -f "docs/database-schema.sql" ]; then
+          echo "database-schema.sql found"
+        else
+          echo "ERROR: database-schema.sql not found in docs folder"
+          exit 1
+        fi
+    
+    - name: Check README.md
+      run: |
+        if [ -f "README.md" ]; then
+          echo "README.md found"
+        else
+          echo "ERROR: README.md not found"
+          exit 1
+        fi
+    
+    - name: List docs contents
+      run: |
+        echo "Contents of docs folder:"
+        ls -la docs/
+    
+    - name: Validation passed
+      run: |
+        echo "All required files are present"
+        echo "Validation successful"
