@@ -45,3 +45,8 @@ RACEDAY BUSINESS RULES
 7. RESULT
    - One result per enrolment
    - Must have finish time
+8. ROLE ACCESS
+   - Public: View only events, categories, results
+   - Participant: Enrol, pay, view own enrolments
+   - Organizer: Create events, manage categories, capture results
+   - 
