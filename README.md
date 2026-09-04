@@ -20,3 +20,7 @@ participant
 section a
 business rules 
 RACEDAY BUSINESS RULES
+1. USERS
+   - Unique email required
+   - Role: Participant or Organizer
+   - Passwords must be hashed
