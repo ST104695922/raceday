@@ -27,3 +27,7 @@ RACEDAY BUSINESS RULES
 2. ORGANISER
    - Can create multiple events
    - Owns events they create
+3. EVENT
+   - Must have date and location
+   - Status: Upcoming/Ongoing/Completed/Cancelled
+   - Belongs to one organiser
