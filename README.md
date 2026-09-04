@@ -31,3 +31,6 @@ RACEDAY BUSINESS RULES
    - Must have date and location
    - Status: Upcoming/Ongoing/Completed/Cancelled
    - Belongs to one organiser
+4. CATEGORY
+   - Belongs to one event
+   - Must have distance (>0) and entry fee (>=0)
