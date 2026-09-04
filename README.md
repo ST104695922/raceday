@@ -38,3 +38,7 @@ RACEDAY BUSINESS RULES
    - One per participant per category
    - Status: Pending/Confirmed/Completed/Cancelled
    - 
+6. PAYMENT
+   - Linked to one enrolment
+   - Amount > 0
+   - Status: Pending/Completed/Failed/Refunded
