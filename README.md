@@ -24,3 +24,6 @@ RACEDAY BUSINESS RULES
    - Unique email required
    - Role: Participant or Organizer
    - Passwords must be hashed
+2. ORGANISER
+   - Can create multiple events
+   - Owns events they create
