@@ -18,3 +18,5 @@ participant
 - Records payments
 - Views race results
 section a
+business rules 
+RACEDAY BUSINESS RULES
