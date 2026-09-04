@@ -34,3 +34,7 @@ RACEDAY BUSINESS RULES
 4. CATEGORY
    - Belongs to one event
    - Must have distance (>0) and entry fee (>=0)
+5. ENROLMENT
+   - One per participant per category
+   - Status: Pending/Confirmed/Completed/Cancelled
+   - 
